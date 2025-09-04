@@ -1,0 +1,73 @@
+/* chat_style.css - Updated */
+body {
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Courier New', monospace;
+    color: #0f0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+    border: 2px solid #0f0;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    background: rgba(0,0,0,0.75);
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+input, button {
+    background: #000;
+    border: 1px solid #0f0;
+    color: #0f0;
+    padding: 10px;
+    margin: 5px 0;
+    width: 90%;
+    border-radius: 5px;
+}
+
+#chat-box {
+    flex: 1;
+    overflow-y: auto;
+    margin: 10px;
+    border: 1px solid #0f0;
+    padding: 10px;
+    max-height: 70%;
+    background: rgba(0,0,0,0.55);
+    border-radius: 8px;
+}
+
+.sent {
+    background: #0f0;
+    color: #000;
+    text-align: right;
+    margin-left: auto;
+    margin-bottom: 5px;
+    padding: 8px;
+    border-radius: 6px;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+.received {
+    background: #060;
+    color: #0f0;
+    text-align: left;
+    margin-right: auto;
+    margin-bottom: 5px;
+    padding: 8px;
+    border-radius: 6px;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+.system {
+    color: #999;
+    font-style: italic;
+    text-align: center;
+    margin: 5px 0;
+}
