@@ -1,1 +1,1 @@
-python app.py
+web: python E2EE.py
